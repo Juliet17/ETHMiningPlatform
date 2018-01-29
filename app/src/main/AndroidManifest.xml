@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shinystar91.ETHMiningPlatform">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_eth"
+        android:label="ETH Mining Platform"
+        android:roundIcon="@mipmap/ic_eth"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.MainScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.CheckBalanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.YourRate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.ExRate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.ShareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shinystar91.ETHMiningPlatform.WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+    </application>
+
+</manifest>
