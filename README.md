@@ -12,5 +12,4 @@ Download it in your device and press "Go". Or use a promocode if you have one. T
 
 - Project homepage: https://github.com/Juliet17/ETHMiningPlatform
 - Repository: https://github.com/Juliet17/ETHMiningPlatform
-- Related projects:
-  - Your other project: https://github.com/Juliet17/ZECMaker
+- Related projects: https://github.com/Juliet17/ZECMaker
